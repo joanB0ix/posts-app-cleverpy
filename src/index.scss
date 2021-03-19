@@ -26,4 +26,8 @@ html{
   min-height: 100% !important;
   height: 100%;
   overflow-y: scroll;
+  @media screen and (max-width: $max_mobile_width)
+  {
+    font-size: 15px;
+  }
 }

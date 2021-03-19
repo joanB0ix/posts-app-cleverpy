@@ -1,3 +1,5 @@
+@import '../../assets/styles/variables.scss';
+
 .landing{
     &-wrapper{
         flex: 1;
@@ -11,10 +13,18 @@
     }
     &-title{
         font-size: 6em;
+        @media screen and (max-width: $max_mobile_width)
+        {
+          font-size: 3em;
+        }
         font-weight: 700;
     }
     &-subtitle{
         font-size: 2em;
+        @media screen and (max-width: $max_mobile_width)
+        {
+          font-size: 1.5em;
+        }
         font-weight: 500;
     }
     &-buttons{

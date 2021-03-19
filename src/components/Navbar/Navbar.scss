@@ -15,7 +15,11 @@
     &-title
     {
         font-weight: 700;
-        font-size: 1.7em;
+        font-size:  1.7em;
+        @media screen and (max-width: $max_mobile_width)
+        {
+          font-size: 1.2em;
+        }
         color: black;
     }
     &-tabs{
