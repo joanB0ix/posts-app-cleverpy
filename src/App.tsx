@@ -19,9 +19,9 @@ function App() {
     <div className="app-wrapper">
       <Router>
         <Navbar />
-        <Route path="/" exact component={Landing}/>
-        <Route path="/login" exact component={Login}/>
-        <Route path="/feed" exact component={PostFeed}/>
+        <Route path={"/"} exact component={Landing}/>
+        <Route path={"/login"} exact component={Login}/>
+        <Route path={"/feed"} exact component={PostFeed}/>
       </Router>
     </div>
   );
