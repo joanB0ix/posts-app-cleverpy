@@ -1,0 +1,29 @@
+@import './assets/styles/variables.scss';
+
+body {
+  margin: 0;
+  min-height: 100% !important;
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $light_grey;
+  a{
+    text-decoration: none;
+    color: black;
+    &:visited{
+      color: black;
+    }
+  }
+}
+
+code {
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+}
+
+html{
+  min-height: 100% !important;
+  height: 100%;
+  overflow-y: scroll;
+}

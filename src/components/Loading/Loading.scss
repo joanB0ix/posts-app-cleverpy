@@ -1,0 +1,28 @@
+.loading-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    margin-bottom: 150px;
+    font-size: 4em;
+    font-weight: 700;
+    text-align: center;
+    animation: fadeAnimation 1s;
+    animation-iteration-count: infinite;
+    animation-direction: forward;
+}
+
+@keyframes fadeAnimation {
+    0% {
+        opacity: 0.35;    
+    }
+    25%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 0.75;
+    }
+    100%{
+        opacity: 0.35;
+    }
+}

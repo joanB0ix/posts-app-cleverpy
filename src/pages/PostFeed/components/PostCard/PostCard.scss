@@ -1,0 +1,47 @@
+@import '../../../../assets/styles/variables.scss';
+
+.post{
+    &-wrapper{
+        flex: 1 0 21%;
+        display: grid;
+        padding: 20px;
+        border-radius: 5px;
+        max-width: 300px;
+        height: fit-content;
+        background-color: white;
+        transition: all 300ms;
+        overflow-wrap: normal;
+        box-shadow: $shadow;
+        border-bottom: rgba(128, 128, 128, 0.5) 5px solid;
+    }
+
+    &-title{
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+
+    &-body{
+        margin-top: 10px;
+        min-height: 100px;
+    }
+
+    &-user{
+        margin-top: 20px;
+        color: grey;
+        align-self: flex-end;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-delete{
+        background-color: transparent;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        transition: all 300ms;
+        color: $granate_dark !important;
+        &:hover{
+            color: red !important;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+@import '../../../../assets/styles/variables.scss';
+
+.logincard-wrapper{
+    height: auto;
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    border-bottom: rgba(128, 128, 128, 0.5) 5px solid;
+    box-shadow: $shadow;
+
+    form{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}

@@ -1,0 +1,34 @@
+@import '../../assets/styles/variables.scss';
+
+.navbar
+{
+    &-wrapper
+    {
+        top: 0;
+        width: 100%;
+        height: 70px;
+        background: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    &-title
+    {
+        font-weight: 700;
+        font-size: 1.7em;
+        color: black;
+    }
+    &-tabs{
+        font-weight: 600;
+        display: flex;
+        column-gap: 30px;
+        align-items: center;
+        justify-content: space-around;
+        a{
+            color: black;
+            &:hover{
+                color: $granate_dark;
+            }
+        }
+    }
+}

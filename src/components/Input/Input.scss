@@ -1,0 +1,9 @@
+@import '../../assets/styles/variables.scss';
+
+.input-wrapper{
+    border: none;
+    outline: none;
+    background-color: $light_grey;
+    padding: 10px;
+    font-size: 1.2em;
+}
