@@ -25,8 +25,8 @@ const Navbar = () => {
                 </Link>
             </div>
             <div className="navbar-tabs">
-                <Link to="/posts-app-cleverpy/">Home</Link>
-                <Link to="/posts-app-cleverpy/feed">Feed</Link>
+                <Link to="/">Home</Link>
+                <Link to="/feed">Feed</Link>
                 <div className="navbar-button">
                     <DefaultButton  text="Login" action={goToLogin}/>
                 </div>
