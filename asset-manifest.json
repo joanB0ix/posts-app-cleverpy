@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/posts-app-cleverpy/static/css/main.f53b869f.chunk.css",
-    "main.js": "/posts-app-cleverpy/static/js/main.dd76d047.chunk.js",
-    "main.js.map": "/posts-app-cleverpy/static/js/main.dd76d047.chunk.js.map",
+    "main.js": "/posts-app-cleverpy/static/js/main.9214420d.chunk.js",
+    "main.js.map": "/posts-app-cleverpy/static/js/main.9214420d.chunk.js.map",
     "runtime-main.js": "/posts-app-cleverpy/static/js/runtime-main.261cc71d.js",
     "runtime-main.js.map": "/posts-app-cleverpy/static/js/runtime-main.261cc71d.js.map",
     "static/js/2.2fd78f83.chunk.js": "/posts-app-cleverpy/static/js/2.2fd78f83.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.261cc71d.js",
     "static/js/2.2fd78f83.chunk.js",
     "static/css/main.f53b869f.chunk.css",
-    "static/js/main.dd76d047.chunk.js"
+    "static/js/main.9214420d.chunk.js"
   ]
 }
